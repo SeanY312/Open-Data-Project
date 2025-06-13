@@ -1,0 +1,178 @@
+html,body{
+  height:100%;
+  margin:0 auto;
+  font-family:Arial;
+}
+.container{
+  display:flex;
+}
+nav{
+  padding:5px;
+  margin:0 10px 0 10px;
+  flex:1;
+  text-align:center;
+}
+
+nav a{
+  background-color:aqua;
+  text-align:center !important;
+  justify-content:center !important;
+  flex:1;
+}
+
+nav a:hover{
+  color:white;
+}
+
+.subbanner{
+  background-color:rgb(200,220,255);
+}
+#banner{
+  background-color: rgb(235, 120, 120);
+  color:white;
+}
+#footer{
+  background-color:cornflowerblue;
+  color:white;
+  left: 0;
+  right: 0;
+  bottom:0px;
+}
+
+.card{
+  flex:1;
+  padding: 10px;
+}
+h2{
+  background-color:black;
+  color:white;
+  padding:10px;
+  box-shadow:2px 2px 2px gray;
+}
+.center{
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  text-align:center;
+}
+.flip-card{
+  flex:1;
+}
+img{
+  max-height:200px;
+}
+/*#bg{
+  background-image: url("https://img.andrewprokos.com/MANHATTAN-EMPIRE-STATE-VIEW-FROM-ROCKEFELLER-CENTER-AT-DUSK-5214-1000PX.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+*/
+html { 
+  background: url("NYSkyline.jpg") no-repeat center center fixed; 
+  background-size: cover;
+}
+.centertext {
+  align-items:center; 
+  text-align:center; 
+  justify-content:center;
+  align-content:center;
+  padding:10px;
+}
+.blackandwhite {
+  background-color:black;
+  color:white;
+  padding:2px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+  flex-wrap:wrap;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  flex-wrap:wrap;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+  flex-wrap:wrap;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+#output {
+  flex:1;
+  flex-wrap:wrap;
+}
+
+.frontpageboxes{
+  background-color: rgb(165, 178, 207);
+  color:white;
+  padding:2px;
+  flex:1;
+  margin:80px;
+  text-align:center;
+  font-size:35px;
+}
+
+.flex-container{
+  display: flex;
+  flex: 1;
+}
+#analysis{
+  background-color: rgb(139, 242, 121);
+  padding: 0px
+}
+#analysis2{
+  background-color: rgb(139, 242, 121);
+  padding: 0px
+}
+.chartboxes{
+  margin: 0px;
+  background-color: rgb(139, 242, 121);
+}
+#chart{
+  background-color:rgb(57, 212, 212);
+}
+#chart2{
+  background-color:rgb(57, 212, 212);
+}

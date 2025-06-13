@@ -1,0 +1,243 @@
+html,
+body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  padding: 10px;
+}
+
+nav {
+  background-color: cornflowerblue;
+}
+
+nav a {
+  color: black;
+  padding: 10px;
+  flex: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.subbanner {
+  background-color: rgb(200, 220, 255);
+}
+
+#banner {
+  background-color: blue;
+  color: white;
+}
+
+#footer {
+  background-color: cornflowerblue;
+  color: white;
+  /*position:fixed;*/
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+
+.card {
+  flex: 1;
+  padding: 10px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.flip-card {
+  flex: 1;
+}
+
+img {
+  max-height: 200px;
+}
+
+body {
+
+  font-family: Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+#main {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#click_me {
+  background-color: black;
+  padding: 2px;
+  border-radius: 5px;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex: 1;
+  margin: 0 10px 0 10px;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+nav {
+  padding: 5px;
+}
+
+div h1 {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+#click_me:hover {
+  color: white !important;
+}
+
+.image {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.banner * {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.links {
+  text-align: center;
+  justify-content: center
+}
+
+nav a {
+  background-color: aqua;
+  text-align: center !important;
+  justify-content: center !important;
+  flex: 1;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.banner1 * {
+  border: 2px solid black;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 100px;
+}
+
+.centertext {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.blackandwhite {
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  /* Remove this if you don't want the 3D effect */
+  flex-wrap: wrap;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  flex-wrap: wrap;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  flex-wrap: wrap;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+  backface-visibility: hidden;
+  flex-wrap: wrap;
+}
+
+.flip-card-front {
+  background-color: cyan;
+  color: black;
+  flex-wrap: wrap;
+}
+
+.flip-card-back {
+  background-color: white;
+  color: black;
+  transform: rotateY(180deg);
+  flex-wrap: wrap;
+}
+
+#bg {
+  background-image: url("https://img.andrewprokos.com/MANHATTAN-EMPIRE-STATE-VIEW-FROM-ROCKEFELLER-CENTER-AT-DUSK-5214-1000PX.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex:1;
+}
+
+#output {
+  flex: 1;
+  flex-wrap: wrap;
+}

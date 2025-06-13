@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <script src="helper.js"></script> 
+  <link href="c3-eb4b9be8.css" rel="stylesheet" type="text/css" />
+  <script src="d3-5.8.2.min-c5268e33.js"></script>
+  <script src="c3.min-d2a1f852.js"></script>
+  <script src="components.js"></script>
+  <script src="script.js"></script>
+  </head>
+  <body id="bg" onload="init()">
+    <div id="banner" class="container center">
+      <div style="text-align:center">
+          <h1> Causes of Death in NY </h1>
+      </div>
+    </div>
+  <nav style="color:black;" class="flex-container">
+    <a href="index.html">Homepage</a>
+    <a href="info.html" >Cards</a>
+    <a href="cause.html" >Causes</a>
+    <!--<a href="race.html" >Race</a> -->
+  </nav>
+    <div class="container subbanner" >
+      <div>
+        <p>Using a JSON from NYC Open Data, we can read and map out various different causes of deaths of people, as well as other things such as their race or gender.</p>
+       </div>
+     <input type="button" value="Click Me!" onclick="race()">
+  </div>
+  <div id="chart"></div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body id="bg" onload="init()">
+  <div id="banner" class="container center">
+    <div style="text-align:center">
+      <h1>Deaths since 2007 to 2014</h1>
+    </div>
+  </div
+  <br>
+  <nav style="color:black;" class="flex-container">
+    <a href="index.html">Homepage</a>
+    <a href="info.html">Cards</a>
+    <a href="cause.html">Causes</a>
+    <!--<a href="race.html" >Race</a> -->
+  </nav>
+  <div>
+    <input type="text" id="year" placeholder="Enter Year 2007 to 2014">
+    <input type="button" value="Filter By Info Given" onclick="filter_0()">
+  </div>
+  <div>
+    <input type="text" id="cause" placeholder="Enter Cause">
+    <input type="button" value="Filter By Info Given" onclick="filter_1()">
+  </div>
+  <div class="container subbanner">
+    <div>
+      <p>This page has a bunch of different cards by year to show the statistics of how many people die from different
+        things, their sex, and their ethnicity. This way you can see the data that comes from the JSON more directly. In
+        order to interact with this data, simply pick a year from 2007 to 2014 and type it into the text box. Then,
+        press the button to filter the data. After that, just hover your mouse over the cards to see the data. When inputting a cause into the text box, make sure to use the entire name of the cause that is on the year cards for it to work. As well, these buttons do not work inclusively so you can't use them both together to look for a very specific cause of death and year.</p>
+    </div>
+  </div>
+  <div id="output" class="container"></div>
+  </div>
+</body>
+
+</html>
